@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video Mockup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Prime Video</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>TV Shows</li>
+                    <li>Movies</li>
+                    <li>Live TV</li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+            <div class="profile">
+                <img src="https://via.placeholder.com/40x40?text=User " alt="Profile">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Interstellar</h2>
+                <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+                <button class="play-button">Play Now</button>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Movies Row -->
+        <section class="content-section">
+            <h3>Featured Movies & Shows</h3>
+            <div class="movies-grid" id="moviesGrid">
+                <!-- Cards will be populated by JS for dynamism, but static for fallback -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
